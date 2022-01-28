@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Press+Start+2P&family=Rubik:wght@300&family=Tourney&display=swap");
+
+.container {
+  animation: transitionIn 0.9s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+body {
+    background-image: url(../images/bigdata/bg.jpg);
+}
+
+h1,
+p {
+  color: white;
+  margin-bottom: 0%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 60px;
+  padding: 5px;
+  font-family: "Tourney", cursive;
+}
+
+p.h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  padding: 5px;
+  font-family: "Aldrich", sans-serif;
+  color: white;
+}
+
+ul.nav {
+  float: inline-start;
+  list-style: none;
+  margin-top: 20px;
+  margin-right: 50px;
+  font-size: 15px;
+}
+ul.nav li {
+  display: inline-block;
+}
+
+ul.nav li a {
+  text-decoration: none;
+  color: purple;
+  padding: 5px 20px;
+  border: 1px solid purple;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+}
+ul li a:hover {
+  background-color: blueviolet;
+  color: antiquewhite;
+  transition: 0.8s ease;
+  padding: 6.5px 25px;
+}
+ul li a:hover {
+  border-bottom: 3.5px solid whitesmoke;
+  border-radius: 8px;
+  transition: 0.7s ease;
+}
+
+li.break {
+  margin-left: 10px;
+}
+li.break2 {
+  margin-left: 10px;
+}
+li.nav {
+  margin-left: 0;
+}
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  backdrop-filter: brightness(60%);
+  margin: 0%;
+  background-position: center;
+}
+
+p.content {
+  margin-top: 0%;
+  font-size: 20px;
+  padding: 30px;
+  font-family: "Rubik", sans-serif;
+  color: black;
+  border-radius: 20px;
+  background-color: rgba(190, 201, 233, 1);
+  font-weight: bold;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+
+p.ml {
+  margin-top: 0px;
+  font-size: 20px;
+  padding: 30px;
+  font-family: "Rubik", sans-serif;
+  color: black;
+  border-radius: 20px;
+  background-color: rgba(190, 201, 233, 1);
+  font-weight: bold;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+article {
+  margin-top: 0px;
+  padding: 30px;
+  color: black;
+  border-radius: 20px;
+  background-color: rgba(190, 201, 233, 1);
+  font-weight: bold;
+  margin-right: 270px;
+  margin-left: 270px;
+  margin-top: 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  border: 4px white solid;
+}
+
+article.ie {
+  margin-top: 0px;
+  padding: 30px;
+  color: white;
+  border-radius: 20px;
+  background-image: url(../images/bigdata/dm.jpg);
+  background-blend-mode: hard-light;
+  background-size: cover;
+  font-weight: bold;
+  margin-right: 270px;
+  margin-left: 270px;
+  margin-top: 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+article.ar {
+  margin-top: 0px;
+  padding: 30px;
+  color: white;
+  border-radius: 20px;
+  background-image: url(../images/bigdata/dataana.jpg);
+  background-blend-mode: hard-light;
+  background-position: center;
+  background-size: cover;
+  font-weight: bold;
+  margin-right: 270px;
+  margin-left: 270px;
+  margin-top: 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+article.robotics {
+  margin-top: 0px;
+  padding: 30px;
+  color: white;
+  border-radius: 20px;
+  background-image: url(../images/r2.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+  font-weight: bold;
+  margin-right: 270px;
+  margin-left: 270px;
+  margin-top: 10px;
+  font-family: "Rubik Light";
+  font-size: 20px;
+}
+
+article.nlp {
+  margin-top: 0px;
+  padding: 30px;
+  color: black;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 270px;
+  margin-left: 270px;
+  margin-top: 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+article.ai {
+  text-align: center;
+  margin-top: 0px;
+  padding: 30px;
+  color: white;
+  border-radius: 20px;
+  background-image: url(../images/aic1.jpg);
+  background-blend-mode: hard;
+  background-size: cover;
+  font-weight: bold;
+  margin-right: 270px;
+  margin-left: 270px;
+  margin-top: 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+article.ml {
+  text-align: center;
+  margin-top: 0px;
+  padding: 30px;
+  color: black;
+  border-radius: 20px;
+  /* background-image: url(mlc1.jpg); */
+  background-blend-mode: screen;
+  background-size: cover;
+  font-weight: bold;
+  margin-right: 270px;
+  margin-left: 270px;
+  margin-top: 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+p.lightcontent {
+  backdrop-filter: brightness(30%);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+dd {
+  font-family: "Rubik Light";
+  font-size: 20px;
+}
+
+dt {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img.intopic {
+  border-radius: 6px;
+}
+
+p.lightcontent {
+  backdrop-filter: brightness(20%);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+ul.lightcontent {
+  backdrop-filter: brightness(20%);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+ul.robo {
+  backdrop-filter: brightness(35%);
+  padding: 30px;
+  border-radius: 5px;
+}
